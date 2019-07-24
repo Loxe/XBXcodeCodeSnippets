@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pns,psn,strong</string>
+	<string>xb_getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>- (&lt;#class#&gt; *)&lt;#name#&gt; 
+{
+if (!_&lt;#name#&gt;) {
+_&lt;#name#&gt; = [[&lt;#class#&gt; alloc] init];
+}
+return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A8900D6-2E1B-4702-B597-39FB2BD44FB2</string>
+	<string>E350A25C-4011-4635-A664-6FEB973C0863</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>xb_strong</string>
+	<string>xb_getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

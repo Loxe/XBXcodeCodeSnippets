@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pns,psn,strong</string>
+	<string>make_height</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>make.height.mas_equalTo(&lt;#height#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A8900D6-2E1B-4702-B597-39FB2BD44FB2</string>
+	<string>0D0DDD55-0890-4BEC-931E-78E1EADEAA6C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>xb_strong</string>
+	<string>xb_masonry_height</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

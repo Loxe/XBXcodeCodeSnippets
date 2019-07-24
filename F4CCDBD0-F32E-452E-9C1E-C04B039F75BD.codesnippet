@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pns,psn,strong</string>
+	<string>make_right</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>make.right.mas_equalTo(&lt;#right#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A8900D6-2E1B-4702-B597-39FB2BD44FB2</string>
+	<string>F4CCDBD0-F32E-452E-9C1E-C04B039F75BD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>xb_strong</string>
+	<string>xb_masonry_right</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
